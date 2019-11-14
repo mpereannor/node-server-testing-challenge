@@ -6,26 +6,27 @@ const db = require('../data/dbConfig');
 //     await db('students').truncate()
 // })
 
-/*
+
 describe('Students model', () => { 
     describe('insert function', () => { 
         let student 
         test('should insert a student name, department and level', async () => { 
             await Students.insert({ 
-                student_name: 'Lorenzo',
+                student_name: 'Edwin',
                 faculty: 'geology',
                 level: 'beginner'
             })
             await Students.insert({ 
-                name: 'Appiah',
+                student_name: 'Appiah',
                 faculty: 'arts',
                 level: 'beginner'
             })
         })
     });
 
-    // describe('delete function', () => { 
+     describe('delete function', () => { 
 
-    // })
+        
+
+     })
 })
-*/

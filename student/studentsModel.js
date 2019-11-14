@@ -9,12 +9,12 @@ module.exports = {
 };
 
 function insert(student) { 
-    return db('students')
+    return db('student')
     .insert(student)
 }
 
 function remove(id) {
-    return db('students')
+    return db('student')
     .where('id', id)
     .del()
 }
