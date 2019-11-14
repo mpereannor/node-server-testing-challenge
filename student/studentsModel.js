@@ -1,9 +1,5 @@
 const db = require('../data/dbConfig');
 
-beforeEach(async () => { 
-    await db('students').truncate()
-})
-
 module.exports = { 
     insert,
     // update,
